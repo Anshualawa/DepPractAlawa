@@ -14,7 +14,7 @@ function Header() {
                 <div className="hidden lg:block">
                     <ul className="inline-flex space-x-8">
                         <li>
-                            <NavLink to={''}
+                            <NavLink to={'/DepPractAlawa'}
                                 className={({ isActive }) => `text-sm ${isActive ? 'text-orange-700' : 'text-gray-700'} font-semibold text-gray-800 hover:text-orange-700`}
                             >
                                 Home
